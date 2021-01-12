@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>Vraciu Ștefan - Personal Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="bgimg">
+    <div class="middle">
+        <h1>PERSONAL WEBSITE</h1>
+    </div>
+    <div class="bottomleft">
+        <a href="https://ro.linkedin.com/in/stefan-vraciu" class="fa fa-linkedin"></a>
+        <a href="https://www.facebook.com/stefan.vraciu" class="fa fa-facebook"></a>
+        <a href="https://github.com/stefanvraciu" class="fa fa-github"></a>
+    </div>
+</div>
+
+<style>
+    /* Set height to 100% for body and html to enable the background image to cover the whole page: */
+    body, html {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .bgimg {
+    /* Background image */
+    background-image: url('https://i.pinimg.com/originals/e0/57/44/e05744161d7500a183d5ec3a38a6e626.jpg');
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+    /* Add a white text color to all elements inside the .bgimg container */
+    color: white;
+    /* Add a font */
+    font-family: "Courier New", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 25px;
+    }
+
+
+    /* Position text in the bottom-left corner */
+    .bottomleft {
+        position: absolute;
+        bottom: 20px;
+        left: 16px;
+    }
+
+    /* Position text in the middle */
+    .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .fa {
+        padding: 10px;
+        font-size: 15px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+
+    .fa-linkedin {
+    background: #0073B0;
+    color: white;
+    }
+
+    .fa-github {
+    background: #000000;
+    color: white;
+    }
+
+    </style>
+</body>
+</html>
